@@ -9,3 +9,5 @@ server.use(bodyParser.json())
 server.listen(port, function(){
     console.log(`Rodando na porta ${port}`)
 })
+
+module.exports = server
